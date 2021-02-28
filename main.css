@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    color: white;
+    font-family: 'Comfortaa', cursive;
+
+    background-image: linear-gradient(to bottom right, #121212, #000000);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation {
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h4 a {
+    color: #5271FF;
+    transition: 0.7s;
+}
+
+h4 a:hover {
+    color: white;
+    border-bottom: #5271FF 1px solid;
+}
+
+p a {
+    color: #5271FF;
+    transition: 0.7s;
+}
+
+p a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    transition: 1s;
+}
+
+.progress {
+    border-radius: 9999px;
+    background-color: rgb(119, 119, 119);
+}
+
+.progress-bar {
+    background-color: #5271FF;
+}
+
+.name {
+    margin: auto;
+
+}
+
+.title {
+    font-size: 94px;
+    font-weight: bold;
+}
+
+.buttonBlue {
+    background-color: #5271FF;
+    margin-top: 20px;
+    padding: 15px 50px;
+    color: black;
+    border-radius: 70px;
+    transition: 0.7s;
+    font-size: 20px;
+}
+
+.buttonBlue:hover {
+    background-color: #121212;
+    color: #5271FF;
+}
+
+.navigation a:hover {
+    color: #5271FF;
+    border-bottom: 1px #5271FF solid;
+}
+
+.landimg {
+    z-index: 0;
+}
+
+.land {}
+
+.story {
+    padding: 25px;
+    background-color: #6ee7b7;
+    border-radius: 30px;
+}
+
+.accordion-body h6 {
+    color: #6EE7B7;
+}
+
+.accordion-header {
+    margin: 10px;
+    border-bottom: 3px solid #6EE7B7;
+}
+
+.accordion-header button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #6ee7b7;
+}
+
+.subtitels{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.count{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 762px) {
+    h1 {
+        font-size: 50px;
+    }
+    .title {
+        font-size: 50px;
+    }
+    .subtitels{
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .navigation a {
+        font-size: 18px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .name {
+        margin: auto;
+    }
+
+    .navigation a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+
+}
