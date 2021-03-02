@@ -15,6 +15,8 @@ a {
 
 .navigation {
     font-weight: bold;
+
+
 }
 
 h1 {
@@ -138,7 +140,14 @@ p a:hover {
 .count{
     margin-top: 50px;
 }
+img {
+    transition: 1s;
+}
 
+img:hover {
+    transform: scale(1.04);
+    transition: 1s;
+}
 @media screen and (max-width: 762px) {
     h1 {
         font-size: 50px;
@@ -171,4 +180,22 @@ p a:hover {
     }
 
 
+}
+#tabel{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+th{
+    font-size: 35px;
+}
+
+
+.laatste-rij{
+    margin-bottom: 50px;
 }
