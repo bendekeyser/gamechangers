@@ -199,3 +199,14 @@ th{
 .laatste-rij{
     margin-bottom: 50px;
 }
+.tekst{
+    font-size: 20px;
+}
+h4 {
+    font-size: 30px;
+
+    font-weight: bold;
+}
+td{
+    font-size: 20px;
+}
